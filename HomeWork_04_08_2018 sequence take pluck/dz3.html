@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home Work 1 14/07/2018</title>
+</head>
+<body>
+	<pre>
+        // ВОПРОС 1:
+// Напиши функцию создания генератора sequence(start, step). Она при вызове возвращает другую функцию-генератор, которая при каждом вызове дает число на 1 больше, и так до бесконечности. Начальное число, с которого начинать отсчет, и шаг, задается при создании генератора. Шаг можно не указывать, тогда он будет равен одному. Начальное значение по умолчанию равно 0. Генераторов можно создать сколько угодно.
+// ПРИМЕР:
+// var generator = sequence(10, 3);
+// var generator2 = sequence(7, 1);
+
+// console.log(generator()); // 10 !!!!!!
+// console.log(generator()); // 13
+
+// console.log(generator2()); // 7
+
+// console.log(generator()); // 16
+
+// console.log(generator2()); // 8
+
+// Также, нужна функция take(gen, x) которая вызвает функцию gen заданное число (x) раз и возвращает массив с результатами вызовов.
+// var generator3 = sequence(0, 2);
+// console.log(take(generator3, 5)); // [0, 2, 4, 6, 8 ]
+
+// ВОПРОС 2:
+// напиши функцию pluck, которая берет массив объектов и возвращает массив значений определенного поля:
+// var characters = [
+//   { 'name': 'barney', 'age': 36 },
+//   { 'name': 'fred', 'age': 40 }
+// ];
+
+// console.log(pluck(characters, 'name')); // ['barney', 'fred']
+// при передаче несуществующего ключа, возвращать ошибку типа (Такого ключа нет)
+
+// РАЗОБРАТЬ
+// Работа с ошибками (try catch), и сама функция Error
+//
+// debugger;
+
+
+
+// var a = 10;
+// var b;
+// if(true){
+//     debugger;
+//     console.log(a);
+// }
+    </pre>
+	<script type="text/javascript" src="js/dz3.js"></script>
+</body>
+</html>
