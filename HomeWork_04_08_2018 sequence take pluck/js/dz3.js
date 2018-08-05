@@ -62,7 +62,7 @@ try {
             }
             resArr.push(record[key]);
         }
-        return rensArr;
+        return resArr;
     }
 
     console.log(pluck(characters, 'name')); // ['barney', 'fred']
