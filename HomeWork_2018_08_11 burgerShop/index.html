@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="css/style.css">
+      <title>Burger Shop</title>
+</head>
+<body>
+
+<div class="burgerHead">
+
+
+    <h1 class="burgerH1">BURGER SHOP</h1>
+    <div id="burgerShow">
+        <img class="large" id="mayo" src="img/mayo.png" alt="">
+        <img class="large" id="large" src="img/burgerBase.png" alt="">
+        <img class="small" id="small" src="img/burgerBase.png" alt="">
+        <img class="large" id="potato" src="img/potato.png" alt="">
+        <img class="large" id="chesee" src="img/cheese.png" alt="">
+        <img class="large" id="salad" src="img/salad.png" alt="">
+        <img class="large" id="spice" src="img/spice.png" alt="">
+    </div>
+
+
+
+    <div class="orderCol contactUsDiv">
+        <h1 class="orderH1">Выберите бургер своей мечты!</h1>
+
+        <form action="#" method="get" id="usrform">
+            <label>
+                <input class="radioInp" onchange="checkRadio(this)" type="radio" name="burgerSize" value="large">Большой<br>
+            </label>
+
+            <label>
+                <input class="radioInp" onchange="checkRadio(this)"  type="radio" name="burgerSize" value="small">Маленький<br>
+            </label><br>
+
+            <label>
+                <input class="radioInp" onchange="checkRadio(this)"  type="radio" name="burgerStuffing" value="chesee">с сыром<br>
+            </label>
+
+            <label>
+                <input class="radioInp" onchange="checkRadio(this)"  type="radio" name="burgerStuffing" value="salad">с салатом<br>
+            </label>
+
+            <label>
+                <input class="radioInp" onchange="checkRadio(this)" checked="checked" type="radio" name="burgerStuffing" value="potato">с картофелем<br>
+            </label><br>
+
+            <label>
+                <input onchange="checkBox(this)" class="checkbox" disabled id="mayoInp" name="mayo" value="mayo" type="checkbox">Майонез<br>
+            </label>
+
+            <label>
+                <input onchange="checkBox(this)" class="checkbox" disabled id="spiceInp" name="spice" value="spice" type="checkbox">Приправы
+            </label>
+
+
+
+        </form>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="js/burger0.js"></script>
+<script src="js/showBurger.js"></script>
+
+</body>
+</html>

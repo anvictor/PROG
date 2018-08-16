@@ -67,7 +67,7 @@ try {
 
     console.log(pluck(characters, 'name')); // ['barney', 'fred']
     console.log(pluck(characters, 'age')); // [36, 40]
-    console.log(pluck(characters, 'nage')); // Такого ключа нет
+    console.log(pluck(charactders, 'nage')); // Такого ключа нет
 
 } catch (e) {
     console.log('Случилась ошибка - '+ e + ', надо погуглить!');

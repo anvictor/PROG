@@ -1,0 +1,112 @@
+*{
+    /*border: crimson solid 1px;*/
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+.burgerH1 {
+    width: 20%;
+    font-family: cursive;
+    flex-wrap: wrap;
+    align-self: center;
+    font-size: 14.671px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix( 3.74892353332598,0,0,3.74892353332598,0,0);
+    -webkit-transform: matrix( 3.74892353332598,0,0,3.74892353332598,0,0);
+    -ms-transform: matrix( 3.74892353332598,0,0,3.74892353332598,0,0);
+}
+
+@media (max-width: 600px) {
+    .burgerH1{font-size: 8px;}
+
+}
+
+.burgerHead {
+    border-radius: 20px;
+    background-image: url(../img/star-burger-star.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.orderCol {
+    background-color: rgba(18, 35, 19, 0.74);
+    box-shadow: 9px -11px 20px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 15px;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+
+.orderH1 {
+    align-self: flex-end;
+    text-align: left;
+}
+
+@media (max-width: 401px) {
+    .orderH1{
+        font-size: 15px;
+    }
+}
+
+
+#burgerShow {
+    width: 67vw;
+    height: 27vw;
+    background-color: rgba(18, 35, 19, 0.74);
+    border-radius: 150px;
+    padding: 15px;
+    margin-top: 30px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+#large{
+    width: 40%;
+    align-self: center;
+
+}
+
+#small{
+    width: 30%;
+    align-self: center;
+}
+
+.large{
+    width: 40%;
+    align-self: center;
+
+}
+
+.small{
+    width: 30%;
+    align-self: center;
+}
+
+
+
+#potato, #chesee, #salad{
+    display:none;
+}
+
+#mayo, #spice{
+    display:none;
+    bottom: 15px;
+    width: 15%;
+
+}
+
+
