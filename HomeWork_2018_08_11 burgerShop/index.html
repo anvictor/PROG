@@ -20,27 +20,27 @@
         <img class="large" id="large" src="img/burgerBase.png" alt="">
         <img class="small" id="small" src="img/burgerBase.png" alt="">
         <img class="large" id="potato" src="img/potato.png" alt="">
-        <img class="large" id="chesee" src="img/cheese.png" alt="">
+        <img class="large" id="cheese" src="img/cheese.png" alt="">
         <img class="large" id="salad" src="img/salad.png" alt="">
         <img class="large" id="spice" src="img/spice.png" alt="">
     </div>
-
+    <p id="outputText"></p>
 
 
     <div class="orderCol contactUsDiv">
         <h1 class="orderH1">Выберите бургер своей мечты!</h1>
 
-        <form action="#" method="get" id="usrform">
-            <label>
-                <input class="radioInp" onchange="checkRadio(this)" type="radio" name="burgerSize" value="large">Большой<br>
+        <form action="#" id="usrform">
+            <label id="largeLabel">
+                <input id="largeRadio" class="radioInp" onchange="checkRadio(this)" type="radio" name="burgerSize" value="large">Большой<br>
             </label>
 
-            <label>
-                <input class="radioInp" onchange="checkRadio(this)"  type="radio" name="burgerSize" value="small">Маленький<br>
+            <label id="smallLabel">
+                <input id="smallRadio" class="radioInp" onchange="checkRadio(this)"  type="radio" name="burgerSize" value="small">Маленький<br>
             </label><br>
 
             <label>
-                <input class="radioInp" onchange="checkRadio(this)"  type="radio" name="burgerStuffing" value="chesee">с сыром<br>
+                <input class="radioInp" onchange="checkRadio(this)"  type="radio" name="burgerStuffing" value="cheese">с сыром<br>
             </label>
 
             <label>
@@ -76,7 +76,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="js/burger0.js"></script>
+<script src="js/burger.js"></script>
 <script src="js/showBurger.js"></script>
 
 </body>
