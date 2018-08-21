@@ -6,6 +6,8 @@
 
 
 
+
+}
 .burgerH1 {
     width: 20%;
     font-family: cursive;
@@ -15,14 +17,17 @@
     font-weight: bold;
     line-height: 1.2;
     text-align: center;
+    margin-top: 50px;
     -moz-transform: matrix( 3.74892353332598,0,0,3.74892353332598,0,0);
     -webkit-transform: matrix( 3.74892353332598,0,0,3.74892353332598,0,0);
     -ms-transform: matrix( 3.74892353332598,0,0,3.74892353332598,0,0);
 }
 
 @media (max-width: 600px) {
-    .burgerH1{font-size: 8px;}
-
+    .burgerH1{
+        font-size: 8px;
+        margin-top: 15px;
+    }
 }
 
 .burgerHead {

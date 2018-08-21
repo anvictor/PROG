@@ -1,0 +1,9 @@
+body{
+    font-family: monospace;
+}
+
+input{
+    display: inline;
+    width: auto;
+    font-family: monospace;
+}
