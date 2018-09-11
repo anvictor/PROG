@@ -40,7 +40,7 @@ Hamburger.prototype.addTopping = function (topping) {
         console.log(this.throws);
         console.log('Повтор '+ this.toppingArr[0].name+' можно только 1.');
     }
-}
+};
 
 /*
 * Изменение размера
@@ -49,7 +49,7 @@ Hamburger.prototype.changeSize = function(size){
     delete this.size;
     this.size = size;
     console.log('стал размер '+ this.size.name);
-}
+};
 
 /*
 * Изменение начинки
@@ -58,7 +58,7 @@ Hamburger.prototype.changeStuffing = function(stuffing){
     delete this.stuffing;
     this.stuffing = stuffing;
     console.log('Начинка стала '+ this.stuffing.name);
-}
+};
 
 /**
  * Убрать добавку, при условии, что она ранее была
@@ -74,7 +74,7 @@ Hamburger.prototype.removeTopping = function (topping){
             this.toppingArr.splice(i, 1);
         }else{console.log(this.throws + ' Нельзя удалить то, что вообще не выбрал!')}
     }
-}
+};
 
 /**
  * Получить список добавок.
@@ -86,23 +86,23 @@ Hamburger.prototype.getToppings = function (){
     var Array = [];
     this.toppingArr.forEach(function (value, index) {
         Array[index]=value.name;
-    })
+    });
     return Array;
-}
+};
 
 /**
  * Узнать размер гамбургера
  */
 Hamburger.prototype.getSize = function () {
     return  this.size;
-}
+};
 
 /**
  * Узнать начинку гамбургера
  */
 Hamburger.prototype.getStuffing = function () {
     return this.stuffing.name;
-}
+};
 
 /**
  * Узнать цену гамбургера
@@ -128,7 +128,7 @@ Hamburger.prototype.calculateCalories = function (){
     });
     calorinessTotal = calorinessTotal + this.stuffing.price+ this.size.calories;
     return calorinessTotal;
-}
+};
 
 /**
  * Представляет информацию об ошибке в ходе работы с гамбургером.

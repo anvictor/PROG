@@ -1,0 +1,21 @@
+.star_bth{
+	width: 18px;
+	height: 18px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	outline: none;
+}
+
+.fav_false, .fav_true{
+
+}
+
+.fav_true {
+	margin-left: -18px;
+}
+
+

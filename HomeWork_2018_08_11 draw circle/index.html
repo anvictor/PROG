@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>shapes</title>
+</head>
+<body>
+
+
+<div class="grid-container">
+    <div id="workCanvas" class="workCanvas"></div>
+    <div class="shapes">
+        <form>
+            <h1>Выберите кисть</h1>
+            <select id="shapes" name="shapes">
+                <option value="circle">круг</option>
+                <option value="square">квадрат</option>
+                <option value="oval">овал</option>
+                <option value="rectangle">прямоугольник</option>
+            </select>
+        </form>
+    </div>
+    <div class="shapeParam">
+        <label class="inpWidth" for="shWidth">Ширина</label>
+        <input class="inpWidth" id="shWidth" type="number" min="10" max="99" step="1" value="30">
+        <label class="inpHeight" for="shHeight">Высота</label>
+        <input class="inpHeight" id="shHeight" type="number" min="10" max="99" step="1" value="30">
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -11,7 +11,7 @@ try {
             return a - step;
 
         }
-    }
+    };
 
     var generator = sequence(10, 3);
     var generator2 = sequence(7, 1);

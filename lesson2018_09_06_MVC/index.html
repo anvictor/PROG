@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <pre>
+        Домашка:
+        Вводы:
+        1.1. Число a
+        1.2. Число b
+        1.3. Действие (+, -, *, /, %(модуль= остаток от деления))
+        Функции обработки:
+        f1 проверка на число (a b), повторный ввод правильного
+        f2 проверка, какое действие (используем switch)
+        f-ункции каждого действия
+
+        f5 отрисовка результата на экране
+    </pre>
+
+    <div class="calc" id="calc">
+
+        <div id="data__add">
+            <input id="arg1" placeholder="a" type="text" class="arg1 inpDataField data__add-inp">
+            <input id="arg2" placeholder="b" type="text" class="arg2 inpDataField data__add-inp">
+            <select id="mathAction" class="inpDataField">
+                <option value="pls">+</option>
+                <option value="mns">-</option>
+                <option value="mlt">*</option>
+                <option value="dvd">/</option>
+                <option value="mdl">%</option>
+            </select>
+
+            <button id="data__add-btn">Enter</button>
+        </div>
+
+        <div id="result__place" class="hidden">
+
+        </div>
+
+    </div>
+
+
+
+    <script src="js/calc/calc.template.js"></script>
+    <script src="js/calc/calc.data.js"></script>
+    <script src="js/calc/calc.view.js"></script>
+    <script src="js/calc/calc.model.js"></script>
+    <script src="js/calc/calc.controller.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

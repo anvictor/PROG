@@ -1,0 +1,24 @@
+.inpDataField{
+	width:40px;
+	text-align: center;
+}
+
+input.arg1{
+	display: initial;
+}
+
+input.arg2{
+	/*display: none;*/
+}
+
+select.inpDataField{
+	/*display: none;*/
+}
+
+.hidden{
+	visibility: hidden;
+}
+
+.visible{
+	visibility: visible;
+}
